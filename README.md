@@ -1,4 +1,4 @@
-# Welcome to Caesar.Team 👋
+# Welcome to Caesar.Team
 ![Version](https://img.shields.io/badge/version-1.4.1-blue.svg?cacheSeconds=2592000)
 ![Prerequisite](https://img.shields.io/badge/node-%3E%3D10-blue.svg)
 [![Documentation](https://img.shields.io/badge/documentation-no-red.svg)](https://docs.caesar.team)
