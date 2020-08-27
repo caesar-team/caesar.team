@@ -1,41 +1,42 @@
-# Welcome to Caesar.Team
-![Version](https://img.shields.io/badge/version-1.4.1-blue.svg?cacheSeconds=2592000)
-![Prerequisite](https://img.shields.io/badge/node-%3E%3D10-blue.svg)
-[![Documentation](https://img.shields.io/badge/documentation-no-red.svg)](https://docs.caesar.team)
-[![License: PolyForm Internal Use](https://img.shields.io/badge/license-Polyform%20Internal%20Use-yellow)](https://polyformproject.org/licenses/internal-use/1.0.0/)
-[![Twitter: CaesarTeamApp](https://img.shields.io/twitter/follow/CaesarTeamApp.svg?style=social)](https://twitter.com/CaesarTeamApp)
+# Caesar.Team
 
-> Caesar is the open-source solution for safe work with sensitive data (passwords, passports, docs etc )
+Caesar.Team is a tool for businesses to store team and personal secrets. 
+- Caesar.Team users can store and keep up-to-date personal secrets as well as team secrets
+- Users can group secrets together into lists
+- Users can share their secrets and users can share temporary secrets.
+![Caesar](https://github.com/caesar-team/docs/blob/master/.gitbook/assets/image%20(60).png?raw=true)
+### Advantages
+- Reliable access to data
+- Client-side encryption so data between a client & a server is always encrypted and the server stores sensitive data in encrypted format
+- Multi-factor authentication (Account password, One Time Passwords, Master Password, Hardware Security Key
+- Access policy establishes access rights for each user or for a team
+- Secure sharing and access to shared data
+- Hybrid cryptography which combines the convenience of a public-key cryptography (RSA 4096-bit) with the efficiency of a symmetric-key (AES-256) cryptography and does not require the sender and receiver to share a common secret in order to communicate securely
 
-### 🏠 [Homepage](https://caesar.team)
 
-## Prerequisites
+### Prerequisites
+Make sure you have the following software and tools installed:
+- PHP 7.4
+- PostgreSQL 9
+- RabbitMQ 3
+- Redis 5
 
-- node >=10
+### Installing
+Since Caesar.Team is a two-part open-source software: client-side and backend-side applications, so you will need to install: 
+1. [The frontend/client application](https://github.com/caesar-team/caesar-web-client)
+2. [The backend application](https://github.com/caesar-team/caesar-server)
 
-## Install
-
-```sh
-helm install stable/caesar-team
-```
-
-## Author
-
-👤 **ave@caesar.team**
-
-* Twitter: [@CaesarTeamApp](https://twitter.com/CaesarTeamApp)
-* Github: [@caesar-team](https://github.com/caesar-team)
-
-## 🤝 Contributing
-
+### 🤝 Contributing
 Contributions, issues and feature requests are welcome!
+Feel free to check the [Issues](https://github.com/caesar-team/caesar.team/issues) page.
 
-Feel free to check [issues page](https://github.com/caesar-team/caesar.team/issues).
+### 👤 Author
+Feel free to contact or follow us
+- Email: ave@caesar.team
+- Twitter: @CaesarTeamApp
+- Github: @caesar-team
 
-
-
-## 📝 License
-
-Copyright © 2019 [ave@caesar.team](https://github.com/caesar-team).
+### 📝 License
+Copyright © 2020 [ave@caesar.team](https://github.com/caesar-team).
 
 This project is [PolyForm Internal Use](https://polyformproject.org/licenses/internal-use/1.0.0/) licensed.
